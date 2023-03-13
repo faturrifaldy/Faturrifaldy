@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  color: black;
+  width: 100%;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+header h1 {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+header span {
+  color: #023e8a;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #023e8a;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li:hover {
+  border-bottom: 3px solid black;
+  transition: all 0.3s ease;
+}
+
+#welcome {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(togean.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+
+#welcome h1 {
+  color: white;
+  text-align: center;
+  padding-top: 6rem;
+  margin-top: 4rem;
+}
+
+#welcome p {
+  color: white;
+  text-align: center;
+}
+
+.bt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bt a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.bt button {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  letter-spacing: 2px;
+}
+
+.bt button:hover {
+  background: linear-gradient(#48cae4, #90e0ef);
+  cursor: pointer;
+}
+
+#about {
+  background: white;
+  padding: 3rem;
+  flex-wrap: wrap;
+}
+
+#about h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#about p {
+  text-align: justify;
+}
+
+#about span {
+  color: #023e8a;
+}
+
+section {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.travelmarbles.com%2Fwp-content%2Fuploads%2F2018%2F08%2Ftogean-9.jpg&f=1&nofb=1");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+#all {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#all h1 {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+#rec {
+  display: inline-flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: grid;
+  margin: 1rem;
+  width: 250px;
+  height: 55vh;
+  font-family: roboto;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px (rgba(0, 0, 0, 0.9));
+  text-align: center;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+#gallery {
+  padding-top: 50px;
+}
+
+#gallery h1 {
+  font-size: 30px;
+  color: #302c2c;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.text h3 {
+  color: #023e8a;
+}
+
+.text p {
+  font-size: 10px;
+  padding: 0 0.5rem;
+  line-height: 1.1rem;
+}
+
+.title-contact {
+  color: #302c2c;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-contact h1 {
+  font-size: 30px;
+}
+
+.get {
+  display: flex;
+  justify-content: center;
+  margin-left: 4rem;
+  flex-wrap: wrap;
+}
+
+.icon-card {
+  color: #302c2c;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 2rem 4rem;
+}
+
+.isi h4 {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box input {
+  height: 30px;
+  width: 340px;
+  margin: 5px;
+  outline: none;
+}
+
+.button {
+  height: 50px;
+  width: 100px;
+  margin: 20px 0;
+}
+
+.button input {
+  height: 30px;
+  width: 100%;
+  color: black;
+  background: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.button input:hover {
+  background: #302c2c;
+  color: white;
+}
+
+footer {
+  background-color: #0a418a;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+footer span {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+
+  .card {
+    width: 320px;
+    height: 370px;
+  }
+
+  .get {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+
+  #gallery h1 {
+    font-size: 20px;
+    color: #302c2c;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .title-contact h1 {
+    font-size: 20px;
+  }
+
+  #all h1 {
+    font-size: 23px;
+  }
+
+  .input-box input {
+    height: 30px;
+    width: 326px;
+    margin: 5px;
+  }
+
+  .isi h4 {
+    text-align: center;
+    font-size: 10px;
+  }
+}
